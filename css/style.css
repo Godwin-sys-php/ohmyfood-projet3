@@ -1,0 +1,133 @@
+body {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+header {
+  background-color: #549c84;
+}
+header h1 {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #fdcb46;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 300%;
+  text-align: center;
+  font-weight: lighter;
+  padding: 3%;
+}
+
+i {
+  color: #f745a4;
+  padding-top: 2%;
+}
+
+main {
+  text-align: center;
+}
+main .btn {
+  margin-bottom: 8%;
+  font-size: 175%;
+  background-color: #549c84;
+  font-family: "Archivo Black", sans-serif;
+  color: #fdcb46;
+  border-radius: 10px;
+  width: auto;
+  display: inline-block;
+  padding: 1.5%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.menu {
+  margin: 5%;
+  width: 25%;
+  text-align: center;
+  box-shadow: 5px 5px 5px 5px #E0E0E0;
+}
+.menu h2 {
+  font-weight: lighter;
+  font-size: 175%;
+}
+.menu h3 {
+  font-weight: lighter;
+  font-size: 175%;
+}
+.menu .content {
+  padding-top: 50%;
+  padding-bottom: 50%;
+}
+.menu__note-enchantee {
+  background-color: #fee0dc;
+}
+.menu__note-enchantee h2 {
+  font-family: "Devonshire", serif;
+}
+.menu__note-enchantee h3 {
+  font-family: "Comic Sans MS", serif;
+}
+.menu__chic-a-la-francaise {
+  background-color: #fff5fe;
+}
+.menu__chic-a-la-francaise h2 {
+  font-family: "Croissant One", serif;
+  background: linear-gradient(to right, #e38a12 0%, #6e4ccc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu__chic-a-la-francaise h3 {
+  font-family: "Abril Fatface", serif;
+  color: #e38a12;
+}
+.menu__delice-des-papilles {
+  background-color: #FAFAFA;
+}
+.menu__delice-des-papilles h2 {
+  font-family: "Dancing Script", serif;
+  background: linear-gradient(to right, #0227dc 0%, #0f81f8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu__delice-des-papilles h3 {
+  font-family: "Comic Sans MS", serif;
+  color: #0227dc;
+}
+.menu__palette-du-gout {
+  background-color: #ffffff;
+}
+.menu__palette-du-gout h2 {
+  font-family: "Kaushan Script", serif;
+  background: linear-gradient(to right, #3e923a 0%, #beff7f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu__palette-du-gout h3 {
+  font-family: "Comic Sans MS", serif;
+  color: #3e923a;
+}
+
+footer {
+  background-color: #549c84;
+  color: #fdcb46;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 125%;
+  padding: 1.5%;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+}
+footer div {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
