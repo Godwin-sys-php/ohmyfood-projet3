@@ -45,5 +45,15 @@
     &__palette-du-gout{
         font-family: "Kaushan Script",serif;
         @include multiColor(#3e923a, #beff7f);
+        &__title{
+            font-family: Arial;
+            font-weight: bold;
+            margin-top: 5%;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        &__big{
+            font-size: 220%;
+        }
     }
 }

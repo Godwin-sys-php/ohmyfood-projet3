@@ -116,6 +116,16 @@ li {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.h2__palette-du-gout__title {
+  font-family: Arial;
+  font-weight: bold;
+  margin-top: 5%;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.h2__palette-du-gout__big {
+  font-size: 220%;
+}
 
 .h3 {
   font-weight: lighter;
@@ -192,6 +202,15 @@ li {
 }
 .menu__palette-du-gout {
   background-color: #ffffff;
+}
+.menu__palette-du-gout__solo {
+  padding: 5%;
+  margin-bottom: 15%;
+  width: 75%;
+  display: inline-block;
+  font-family: "Kalam", serif;
+  height: auto;
+  font-size: 100%;
 }
 
 .en-tete {
