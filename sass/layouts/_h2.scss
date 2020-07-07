@@ -11,7 +11,7 @@
             color: black;
         }
         &__big{
-            font-size: 225%;
+            font-size: 220%;
         }
     }
     &__chic-a-la-francaise{
@@ -25,12 +25,22 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         &__big{
-            font-size: 200%;
+            font-size: 220%;
         }
     }
     &__delice-des-papilles{
         font-family: "Dancing Script", serif;
         @include multiColor(#0227dc, #0f81f8);
+        &__title{
+            font-family: Arial;
+            font-weight: bold;
+            margin-top: 5%;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        &__big{
+            font-size: 220%;
+        }
     }
     &__palette-du-gout{
         font-family: "Kaushan Script",serif;

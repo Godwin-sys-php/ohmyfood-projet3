@@ -76,7 +76,7 @@ li {
   color: black;
 }
 .h2__note-enchantee__big {
-  font-size: 225%;
+  font-size: 220%;
 }
 .h2__chic-a-la-francaise {
   font-family: "Croissant One", serif;
@@ -92,13 +92,23 @@ li {
   font-family: Arial, Helvetica, sans-serif;
 }
 .h2__chic-a-la-francaise__big {
-  font-size: 200%;
+  font-size: 220%;
 }
 .h2__delice-des-papilles {
   font-family: "Dancing Script", serif;
   background: linear-gradient(to right, #0227dc 0%, #0f81f8 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.h2__delice-des-papilles__title {
+  font-family: Arial;
+  font-weight: bold;
+  margin-top: 5%;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.h2__delice-des-papilles__big {
+  font-size: 220%;
 }
 .h2__palette-du-gout {
   font-family: "Kaushan Script", serif;
@@ -170,6 +180,15 @@ li {
 }
 .menu__delice-des-papilles {
   background-color: #FAFAFA;
+}
+.menu__delice-des-papilles__solo {
+  padding: 5%;
+  margin-bottom: 15%;
+  width: 75%;
+  display: inline-block;
+  font-family: "Kalam", serif;
+  height: auto;
+  font-size: 100%;
 }
 .menu__palette-du-gout {
   background-color: #ffffff;

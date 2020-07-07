@@ -37,6 +37,15 @@
 
     &__delice-des-papilles{
         background-color: $menu3-color;
+        &__solo{
+            padding: 5%;
+            margin-bottom: 15%;
+            width: 75%;
+            display: inline-block;
+            font-family: "Kalam", serif;
+            height: auto;
+            font-size: 100%;
+        }
     }
 
     &__palette-du-gout{
