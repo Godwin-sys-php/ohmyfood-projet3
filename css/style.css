@@ -26,92 +26,13 @@ i {
   padding-top: 2%;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 main {
   text-align: center;
-}
-main .btn {
-  margin-bottom: 8%;
-  font-size: 175%;
-  background-color: #549c84;
-  font-family: "Archivo Black", sans-serif;
-  color: #fdcb46;
-  border-radius: 10px;
-  width: auto;
-  display: inline-block;
-  padding: 1.5%;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.menu {
-  margin: 5%;
-  width: 25%;
-  text-align: center;
-  box-shadow: 5px 5px 5px 5px #E0E0E0;
-}
-.menu h2 {
-  font-weight: lighter;
-  font-size: 175%;
-}
-.menu h3 {
-  font-weight: lighter;
-  font-size: 175%;
-}
-.menu .content {
-  padding-top: 50%;
-  padding-bottom: 50%;
-}
-.menu__note-enchantee {
-  background-color: #fee0dc;
-}
-.menu__note-enchantee h2 {
-  font-family: "Devonshire", serif;
-}
-.menu__note-enchantee h3 {
-  font-family: "Comic Sans MS", serif;
-}
-.menu__chic-a-la-francaise {
-  background-color: #fff5fe;
-}
-.menu__chic-a-la-francaise h2 {
-  font-family: "Croissant One", serif;
-  background: linear-gradient(to right, #e38a12 0%, #6e4ccc 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.menu__chic-a-la-francaise h3 {
-  font-family: "Abril Fatface", serif;
-  color: #e38a12;
-}
-.menu__delice-des-papilles {
-  background-color: #FAFAFA;
-}
-.menu__delice-des-papilles h2 {
-  font-family: "Dancing Script", serif;
-  background: linear-gradient(to right, #0227dc 0%, #0f81f8 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.menu__delice-des-papilles h3 {
-  font-family: "Comic Sans MS", serif;
-  color: #0227dc;
-}
-.menu__palette-du-gout {
-  background-color: #ffffff;
-}
-.menu__palette-du-gout h2 {
-  font-family: "Kaushan Script", serif;
-  background: linear-gradient(to right, #3e923a 0%, #beff7f 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.menu__palette-du-gout h3 {
-  font-family: "Comic Sans MS", serif;
-  color: #3e923a;
 }
 
 footer {
@@ -128,6 +49,144 @@ footer {
 }
 footer div {
   cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 125%;
+}
+
+.h2 {
+  font-weight: lighter;
+  font-size: 175%;
+}
+.h2__note-enchantee {
+  font-family: "Devonshire", serif;
+  color: #5f2e34;
+}
+.h2__note-enchantee__title {
+  font-family: Arial;
+  font-weight: bold;
+  margin-top: 5%;
+  color: black;
+}
+.h2__note-enchantee__big {
+  margin-top: -0.25%;
+  font-size: 225%;
+}
+.h2__chic-a-la-francaise {
+  font-family: "Croissant One", serif;
+  background: linear-gradient(to right, #e38a12 0%, #6e4ccc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.h2__delice-des-papilles {
+  font-family: "Dancing Script", serif;
+  background: linear-gradient(to right, #0227dc 0%, #0f81f8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.h2__palette-du-gout {
+  font-family: "Kaushan Script", serif;
+  background: linear-gradient(to right, #3e923a 0%, #beff7f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.h3 {
+  font-weight: lighter;
+  font-size: 175%;
+}
+.h3__note-enchantee {
+  font-family: "Comic Sans MS", serif;
+  color: #5f2e34;
+}
+.h3__note-enchantee__inline-block {
+  display: inline-block;
+  font-family: "Devonshire", serif;
+  font-size: 220%;
+  color: #5f2e34;
+}
+.h3__chic-a-la-francaise {
+  font-family: "Abril Fatface", serif;
+  color: #e38a12;
+}
+.h3__delice-des-papilles {
+  font-family: "Comic Sans MS", serif;
+  color: #0227dc;
+}
+.h3__palette-du-gout {
+  font-family: "Comic Sans MS", serif;
+  color: #3e923a;
+}
+
+.menu {
+  margin: 5%;
+  width: 25%;
+  text-align: center;
+  box-shadow: 5px 5px 5px 5px #E0E0E0;
+}
+.menu .content-accueil {
+  padding-top: 50%;
+  padding-bottom: 50%;
+}
+.menu__note-enchantee {
+  background-color: #fee0dc;
+}
+.menu__note-enchantee__solo {
+  padding: 5%;
+  margin-bottom: 15%;
+  width: 75%;
+  display: inline-block;
+  font-family: "Kalam", serif;
+  line-height: 0.5;
+  height: auto;
+}
+.menu__chic-a-la-francaise {
+  background-color: #fff5fe;
+}
+.menu__delice-des-papilles {
+  background-color: #FAFAFA;
+}
+.menu__palette-du-gout {
+  background-color: #ffffff;
+}
+
+.en-tete {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.en-tete img {
+  height: 8px;
+  width: 30%;
+}
+.en-tete p {
+  font-size: 150%;
+  font-family: "Kalam", serif;
+}
+
+.btn {
+  margin-bottom: 8%;
+  font-size: 175%;
+  background-color: #549c84;
+  font-family: "Archivo Black", sans-serif;
+  color: #fdcb46;
+  border-radius: 10px;
+  width: auto;
+  display: inline-block;
+  padding: 1.5%;
+}
+
+.container-accueil {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 /*# sourceMappingURL=style.css.map */

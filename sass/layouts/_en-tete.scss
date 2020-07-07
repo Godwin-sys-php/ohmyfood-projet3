@@ -1,0 +1,13 @@
+.en-tete{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    img{
+        height: 8px;
+        width: 30%;
+    }
+    p{
+        font-size: 150%;
+        font-family: "Kalam", serif;
+    }
+}

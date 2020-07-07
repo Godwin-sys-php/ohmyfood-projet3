@@ -1,0 +1,10 @@
+@mixin defaultMargin{
+    margin-left: 0px;margin-right: 0px;margin-top: 0px;margin-bottom: 0px;
+}
+
+@mixin multiColor($one, $two){
+
+    background: linear-gradient(to right, $one 0%, $two 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

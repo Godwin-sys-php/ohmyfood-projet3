@@ -1,0 +1,19 @@
+.btn{
+    margin-bottom: 8%;
+    font-size: 175%;        
+    background-color: $primary-color;
+    font-family: "Archivo Black", sans-serif;
+    color: $secondary-color;
+    border-radius: 10px;
+    width: auto;
+    display: inline-block;
+    padding: 1.5%;
+}
+
+.container-accueil{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
