@@ -76,7 +76,6 @@ li {
   color: black;
 }
 .h2__note-enchantee__big {
-  margin-top: -0.25%;
   font-size: 225%;
 }
 .h2__chic-a-la-francaise {
@@ -84,6 +83,16 @@ li {
   background: linear-gradient(to right, #e38a12 0%, #6e4ccc 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.h2__chic-a-la-francaise__title {
+  font-family: Arial;
+  font-weight: bold;
+  margin-top: 5%;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.h2__chic-a-la-francaise__big {
+  font-size: 200%;
 }
 .h2__delice-des-papilles {
   font-family: "Dancing Script", serif;
@@ -144,11 +153,20 @@ li {
   width: 75%;
   display: inline-block;
   font-family: "Kalam", serif;
-  line-height: 0.5;
   height: auto;
+  font-size: 100%;
 }
 .menu__chic-a-la-francaise {
   background-color: #fff5fe;
+}
+.menu__chic-a-la-francaise__solo {
+  padding: 5%;
+  margin-bottom: 15%;
+  width: 75%;
+  display: inline-block;
+  font-family: "Kameron", serif;
+  height: auto;
+  font-size: 100%;
 }
 .menu__delice-des-papilles {
   background-color: #FAFAFA;
@@ -161,14 +179,32 @@ li {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  color: black;
 }
 .en-tete img {
-  height: 8px;
+  height: 12px;
   width: 30%;
 }
 .en-tete p {
   font-size: 150%;
-  font-family: "Kalam", serif;
+}
+.en-tete__chic-a-la-francaise__one {
+  color: #e38a12;
+}
+.en-tete__chic-a-la-francaise__one + div {
+  color: #e38a12;
+}
+.en-tete__chic-a-la-francaise__two {
+  color: #ab70a0;
+}
+.en-tete__chic-a-la-francaise__two + div {
+  color: #ab70a0;
+}
+.en-tete__chic-a-la-francaise__three {
+  color: #6e4ccc;
+}
+.en-tete__chic-a-la-francaise__three + div {
+  color: #6e4ccc;
 }
 
 .btn {

@@ -3,11 +3,31 @@
     justify-content: space-around;
     align-items: center;
     img{
-        height: 8px;
+        height: 12px;
         width: 30%;
     }
     p{
         font-size: 150%;
-        font-family: "Kalam", serif;
+    }
+    color: black;
+    &__chic-a-la-francaise{
+        &__one{
+            color: $chic-color1;
+            & + div{
+                color: $chic-color1;
+            }
+        }
+        &__two{
+            color: $chic-color2;
+            & + div{
+                color: $chic-color2;
+            }
+        }
+        &__three{
+            color: $chic-color3;
+            & + div{
+                color: $chic-color3;
+            }
+        }
     }
 }

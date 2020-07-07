@@ -11,13 +11,22 @@
             color: black;
         }
         &__big{
-            margin-top: -0.25%;
             font-size: 225%;
         }
     }
     &__chic-a-la-francaise{
         font-family: "Croissant One", serif;
         @include multiColor(#e38a12, #6e4ccc);
+        &__title{
+            font-family: Arial;
+            font-weight: bold;
+            margin-top: 5%;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        &__big{
+            font-size: 200%;
+        }
     }
     &__delice-des-papilles{
         font-family: "Dancing Script", serif;

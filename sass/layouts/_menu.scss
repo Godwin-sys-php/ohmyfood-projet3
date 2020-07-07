@@ -17,13 +17,22 @@
             width: 75%;
             display: inline-block;
             font-family: "Kalam", serif;
-            line-height: 0.5;
             height: auto;
+            font-size: 100%;
         }
     }
 
     &__chic-a-la-francaise{
         background-color: $menu2-color;
+        &__solo{
+            padding: 5%;
+            margin-bottom: 15%;
+            width: 75%;
+            display: inline-block;
+            font-family: "Kameron", serif;
+            height: auto;
+            font-size: 100%;
+        }
     }
 
     &__delice-des-papilles{
