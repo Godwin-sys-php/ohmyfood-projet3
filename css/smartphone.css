@@ -1,0 +1,30 @@
+header{
+    font-size: 65%;
+}
+footer{
+    font-size: 75%;
+}
+ul{
+    padding: 0%;
+    margin: 0%;
+    text-align: left;
+}
+li{
+    font-size: 55%;
+}
+.en-tete{
+    font-size: 65%;
+}
+.menu{
+    width: 75%;
+}
+.container-accueil{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    margin-bottom: 20%;
+}
+
+
