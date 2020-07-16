@@ -24,12 +24,15 @@ li{
     width: 75%;
 }
 .menu__community{
-    height: 450px;
+    margin-left: 12%;
 }
 .container-accueil{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.row{
+    flex-direction: column;
 }
 .btn{
     margin-bottom: 20%;

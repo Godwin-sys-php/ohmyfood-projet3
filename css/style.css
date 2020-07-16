@@ -7,6 +7,7 @@ body {
 
 header {
   background-color: #549c84;
+  width: 100%;
 }
 header h1 {
   margin-left: 0px;
@@ -179,6 +180,7 @@ li {
   margin: 5%;
   width: 25%;
   text-align: center;
+  overflow: hidden;
   box-shadow: 5px 5px 5px 5px #E0E0E0;
   transition: opacity, font-size 400ms;
 }
@@ -191,7 +193,7 @@ li {
   font-size: 120%;
 }
 .menu__note-enchantee {
-  height: 75%;
+  height: 35rem;
   background-color: #fee0dc;
 }
 .menu__note-enchantee__solo {
@@ -205,7 +207,7 @@ li {
   height: 100%;
 }
 .menu__chic-a-la-francaise {
-  height: 75%;
+  height: 35rem;
   background-color: #fff5fe;
 }
 .menu__chic-a-la-francaise__solo {
@@ -219,7 +221,7 @@ li {
   height: 100%;
 }
 .menu__delice-des-papilles {
-  height: 75%;
+  height: 35rem;
   background-color: #FAFAFA;
 }
 .menu__delice-des-papilles__solo {
@@ -233,6 +235,7 @@ li {
   height: 100%;
 }
 .menu__palette-du-gout {
+  height: 35rem;
   background-color: #ffffff;
 }
 .menu__palette-du-gout__solo {
@@ -246,11 +249,21 @@ li {
   height: 100%;
 }
 
+.container-accueil {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .en-tete {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color: black;
 }
 .en-tete img {
   height: 12px;
@@ -258,9 +271,43 @@ li {
 }
 .en-tete p {
   font-size: 150%;
+  position: relative;
+  transition: all 0.6s;
+}
+.en-tete p:before {
+  content: "";
+  width: 0;
+  height: 0.1em;
+  position: absolute;
+  bottom: 0;
+  background: black;
+  transition: all 0.3s;
+}
+.en-tete p:hover:before {
+  margin-top: -30%;
+  width: 100%;
+  background: black;
 }
 .en-tete__chic-a-la-francaise__one {
   color: #e38a12;
+}
+.en-tete__chic-a-la-francaise__one > p {
+  position: relative;
+  transition: all 0.6s;
+}
+.en-tete__chic-a-la-francaise__one > p:before {
+  content: "";
+  width: 0;
+  height: 0.1em;
+  position: absolute;
+  bottom: 0;
+  background: #e38a12;
+  transition: all 0.3s;
+}
+.en-tete__chic-a-la-francaise__one > p:hover:before {
+  margin-top: -30%;
+  width: 100%;
+  background: #e38a12;
 }
 .en-tete__chic-a-la-francaise__one + div {
   color: #e38a12;
@@ -268,11 +315,47 @@ li {
 .en-tete__chic-a-la-francaise__two {
   color: #ab70a0;
 }
+.en-tete__chic-a-la-francaise__two > p {
+  position: relative;
+  transition: all 0.6s;
+}
+.en-tete__chic-a-la-francaise__two > p:before {
+  content: "";
+  width: 0;
+  height: 0.1em;
+  position: absolute;
+  bottom: 0;
+  background: #ab70a0;
+  transition: all 0.3s;
+}
+.en-tete__chic-a-la-francaise__two > p:hover:before {
+  margin-top: -30%;
+  width: 100%;
+  background: #ab70a0;
+}
 .en-tete__chic-a-la-francaise__two + div {
   color: #ab70a0;
 }
 .en-tete__chic-a-la-francaise__three {
   color: #6e4ccc;
+}
+.en-tete__chic-a-la-francaise__three > p {
+  position: relative;
+  transition: all 0.6s;
+}
+.en-tete__chic-a-la-francaise__three > p:before {
+  content: "";
+  width: 0;
+  height: 0.1em;
+  position: absolute;
+  bottom: 0;
+  background: #6e4ccc;
+  transition: all 0.3s;
+}
+.en-tete__chic-a-la-francaise__three > p:hover:before {
+  margin-top: -30%;
+  width: 100%;
+  background: #6e4ccc;
 }
 .en-tete__chic-a-la-francaise__three + div {
   color: #6e4ccc;
@@ -309,11 +392,6 @@ li {
   100% {
     opacity: 0.2;
   }
-}
-.container-accueil {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 
 /*# sourceMappingURL=style.css.map */
