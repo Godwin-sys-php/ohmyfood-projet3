@@ -12,11 +12,19 @@ ul{
 li{
     font-size: 55%;
 }
+.en-tete img{
+    height: 4px;
+    overflow: hidden;
+}
+
 .en-tete{
     font-size: 65%;
 }
 .menu{
     width: 75%;
+}
+.menu__community{
+    height: 450px;
 }
 .container-accueil{
     flex-direction: column;

@@ -3,13 +3,24 @@
     width: 25%;
     text-align: center;
     box-shadow: 5px 5px 5px 5px $box-shadow-color;
+
+    transition: opacity, font-size 400ms;
         
     .content-accueil{
         padding-top: 50%;
         padding-bottom: 50%;
     }
 
+    
+    &__community{
+        &:hover{
+            opacity: 0.5;
+            font-size: 120%;
+        }
+    }
+
     &__note-enchantee{
+        height: 75%;
         background-color: $menu1-color;
         &__solo{
             padding: 5%;
@@ -19,10 +30,12 @@
             font-family: "Kalam", serif;
             height: auto;
             font-size: 100%;
+            height: 100%;
         }
     }
 
     &__chic-a-la-francaise{
+        height: 75%;
         background-color: $menu2-color;
         &__solo{
             padding: 5%;
@@ -32,10 +45,12 @@
             font-family: "Kameron", serif;
             height: auto;
             font-size: 100%;
+            height: 100%;
         }
     }
 
     &__delice-des-papilles{
+        height: 75%;
         background-color: $menu3-color;
         &__solo{
             padding: 5%;
@@ -45,6 +60,7 @@
             font-family: "Kalam", serif;
             height: auto;
             font-size: 100%;
+            height: 100%;
         }
     }
 
@@ -58,6 +74,7 @@
             font-family: "Kalam", serif;
             height: auto;
             font-size: 100%;
+            height: 100%;
         }
     }
 

@@ -8,6 +8,7 @@ body {
 header {
   background-color: #549c84;
 }
+
 header h1 {
   margin-left: 0px;
   margin-right: 0px;
@@ -41,43 +42,31 @@ footer {
   font-family: "Archivo Black", sans-serif;
   font-size: 125%;
   padding: 1.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   position: fixed;
   bottom: 0;
 }
+
 footer div:hover {
   cursor: pointer;
-  -webkit-animation: wiggle 300ms infinite;
-  animation: wiggle 800ms infinite;
-  display: block;
 }
 
-@keyframes wiggle {
-  0% {
-    transform: rotate(10deg);
-  }
-  25% {
-    transform: rotate(-10deg);
-  }
-  50% {
-    transform: rotate(15deg);
-  }
-  75% {
-    transform: rotate(-5deg);
-  }
-  100% {
-    transform: rotate(10deg);
-  }
-}
 ul {
   list-style: none;
 }
 
 li {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   font-size: 125%;
 }
 
@@ -85,26 +74,31 @@ li {
   font-weight: lighter;
   font-size: 175%;
 }
+
 .h2__note-enchantee {
   font-family: "Devonshire", serif;
   color: #5f2e34;
 }
+
 .h2__note-enchantee__title {
   font-family: Arial;
   font-weight: bold;
   margin-top: 5%;
   color: black;
 }
+
 .h2__note-enchantee__big {
   font-size: 220%;
 }
+
 .h2__chic-a-la-francaise {
   font-family: "Croissant One", serif;
+  background: -webkit-gradient(linear, left top, right top, from(#e38a12), to(#6e4ccc));
   background: linear-gradient(to right, #e38a12 0%, #6e4ccc 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 150%;
 }
+
 .h2__chic-a-la-francaise__title {
   font-family: Arial;
   font-weight: bold;
@@ -112,15 +106,19 @@ li {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .h2__chic-a-la-francaise__big {
   font-size: 220%;
 }
+
 .h2__delice-des-papilles {
   font-family: "Dancing Script", serif;
+  background: -webkit-gradient(linear, left top, right top, from(#0227dc), to(#0f81f8));
   background: linear-gradient(to right, #0227dc 0%, #0f81f8 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .h2__delice-des-papilles__title {
   font-family: Arial;
   font-weight: bold;
@@ -128,15 +126,19 @@ li {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .h2__delice-des-papilles__big {
   font-size: 220%;
 }
+
 .h2__palette-du-gout {
-  font-family: "Kaushan Script", serif;
+  font-family: "Kaushan Script",serif;
+  background: -webkit-gradient(linear, left top, right top, from(#3e923a), to(#beff7f));
   background: linear-gradient(to right, #3e923a 0%, #beff7f 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .h2__palette-du-gout__title {
   font-family: Arial;
   font-weight: bold;
@@ -144,6 +146,7 @@ li {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .h2__palette-du-gout__big {
   font-size: 220%;
 }
@@ -152,24 +155,29 @@ li {
   font-weight: lighter;
   font-size: 175%;
 }
+
 .h3__note-enchantee {
   font-family: "Comic Sans MS", serif;
   color: #5f2e34;
 }
+
 .h3__note-enchantee__inline-block {
   display: inline-block;
   font-family: "Devonshire", serif;
   font-size: 220%;
   color: #5f2e34;
 }
+
 .h3__chic-a-la-francaise {
   font-family: "Abril Fatface", serif;
   color: #e38a12;
 }
+
 .h3__delice-des-papilles {
   font-family: "Comic Sans MS", serif;
   color: #0227dc;
 }
+
 .h3__palette-du-gout {
   font-family: "Comic Sans MS", serif;
   color: #3e923a;
@@ -179,21 +187,19 @@ li {
   margin: 5%;
   width: 25%;
   text-align: center;
-  box-shadow: 5px 5px 5px 5px #E0E0E0;
-  transition: opacity, font-size 400ms;
+  -webkit-box-shadow: 5px 5px 5px 5px #E0E0E0;
+          box-shadow: 5px 5px 5px 5px #E0E0E0;
 }
+
 .menu .content-accueil {
   padding-top: 50%;
   padding-bottom: 50%;
 }
-.menu__community:hover {
-  opacity: 0.5;
-  font-size: 120%;
-}
+
 .menu__note-enchantee {
-  height: 75%;
   background-color: #fee0dc;
 }
+
 .menu__note-enchantee__solo {
   padding: 5%;
   margin-bottom: 15%;
@@ -202,12 +208,12 @@ li {
   font-family: "Kalam", serif;
   height: auto;
   font-size: 100%;
-  height: 100%;
 }
+
 .menu__chic-a-la-francaise {
-  height: 75%;
   background-color: #fff5fe;
 }
+
 .menu__chic-a-la-francaise__solo {
   padding: 5%;
   margin-bottom: 15%;
@@ -216,12 +222,12 @@ li {
   font-family: "Kameron", serif;
   height: auto;
   font-size: 100%;
-  height: 100%;
 }
+
 .menu__delice-des-papilles {
-  height: 75%;
   background-color: #FAFAFA;
 }
+
 .menu__delice-des-papilles__solo {
   padding: 5%;
   margin-bottom: 15%;
@@ -230,11 +236,12 @@ li {
   font-family: "Kalam", serif;
   height: auto;
   font-size: 100%;
-  height: 100%;
 }
+
 .menu__palette-du-gout {
   background-color: #ffffff;
 }
+
 .menu__palette-du-gout__solo {
   padding: 5%;
   margin-bottom: 15%;
@@ -243,37 +250,49 @@ li {
   font-family: "Kalam", serif;
   height: auto;
   font-size: 100%;
-  height: 100%;
 }
 
 .en-tete {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: black;
 }
+
 .en-tete img {
   height: 12px;
   width: 30%;
 }
+
 .en-tete p {
   font-size: 150%;
 }
+
 .en-tete__chic-a-la-francaise__one {
   color: #e38a12;
 }
+
 .en-tete__chic-a-la-francaise__one + div {
   color: #e38a12;
 }
+
 .en-tete__chic-a-la-francaise__two {
   color: #ab70a0;
 }
+
 .en-tete__chic-a-la-francaise__two + div {
   color: #ab70a0;
 }
+
 .en-tete__chic-a-la-francaise__three {
   color: #6e4ccc;
 }
+
 .en-tete__chic-a-la-francaise__three + div {
   color: #6e4ccc;
 }
@@ -289,31 +308,15 @@ li {
   display: inline-block;
   padding: 1.5%;
 }
-.btn > span {
-  animation: blink 1.4s infinite;
-}
-.btn > span:nth-child(2) {
-  animation-delay: 0.2s;
-}
-.btn > span:nth-child(3) {
-  animation-delay: 0.4s;
-}
 
-@keyframes blink {
-  0% {
-    opacity: 0.2;
-  }
-  20% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0.2;
-  }
-}
 .container-accueil {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=main.css.map */

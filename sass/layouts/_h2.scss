@@ -17,6 +17,7 @@
     &__chic-a-la-francaise{
         font-family: "Croissant One", serif;
         @include multiColor(#e38a12, #6e4ccc);
+        font-size: 150%;
         &__title{
             font-family: Arial;
             font-weight: bold;
