@@ -1,0 +1,27 @@
+
+ul{
+    padding: 0%;
+    margin: 0%;
+    text-align: left;
+}
+.en-tete img{
+    height: 4px;
+    overflow: hidden;
+}
+
+.en-tete{
+    font-size: 65%;
+}
+.menu__community{
+    width: 75%;
+    margin-left: 12%;
+    height: 100%;
+}
+.btn{
+    margin-bottom: 20%;
+}
+
+.menu__community:hover{
+    opacity: inherit;
+    font-size: inherit;
+}

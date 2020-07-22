@@ -1,25 +1,25 @@
-.h3{
+.sous-titre {
     font-weight: lighter;
     font-size: 175%;
-    &__note-enchantee{
+    &__note-enchantee {
         font-family: "Comic Sans MS", serif;
         color: $menu1-color-text;
-        &__inline-block{
+        &__inline-block {
             display: inline-block;
             font-family: "Devonshire", serif;
             font-size: 220%;
             color: $menu1-color-text;
         }
     }
-    &__chic-a-la-francaise{
+    &__chic-a-la-francaise {
         font-family: "Abril Fatface", serif;
         color: #e38a12;
     }
-    &__delice-des-papilles{
+    &__delice-des-papilles {
         font-family: "Comic Sans MS", serif;
         color: #0227dc;
     }
-    &__palette-du-gout{
+    &__palette-du-gout {
         font-family: "Comic Sans MS", serif;
         color: #3e923a;
     }

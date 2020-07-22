@@ -4,6 +4,7 @@
     text-align: center;
     overflow: hidden;
     box-shadow: 5px 5px 5px 5px $box-shadow-color;
+    height: 32.5rem;
 
     transition: opacity, font-size 400ms;
         
@@ -21,7 +22,6 @@
     }
 
     &__note-enchantee{
-        height: 35rem;
         background-color: $menu1-color;
         &__solo{
             padding: 5%;
@@ -36,7 +36,6 @@
     }
 
     &__chic-a-la-francaise{
-        height: 35rem;
         background-color: $menu2-color;
         &__solo{
             padding: 5%;
@@ -51,7 +50,6 @@
     }
 
     &__delice-des-papilles{
-        height: 35rem;
         background-color: $menu3-color;
         &__solo{
             padding: 5%;
@@ -66,7 +64,6 @@
     }
 
     &__palette-du-gout{
-        height: 35rem;
         background-color: $menu4-color;
         &__solo{
             padding: 5%;

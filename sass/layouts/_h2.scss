@@ -1,59 +1,59 @@
-.h2{
+.titre {
     font-weight: lighter;
     font-size: 175%;
-    &__note-enchantee{
+    &__note-enchantee {
         font-family: "Devonshire", serif;
         color: $menu1-color-text;
-        &__title{
+        &__title {
             font-family: Arial;
             font-weight: bold;
             margin-top: 5%;
             color: black;
         }
-        &__big{
+        &__big {
             font-size: 220%;
         }
     }
-    &__chic-a-la-francaise{
+    &__chic-a-la-francaise {
         font-family: "Croissant One", serif;
         @include multiColor(#e38a12, #6e4ccc);
         font-size: 150%;
-        &__title{
+        &__title {
             font-family: Arial;
             font-weight: bold;
             margin-top: 5%;
             color: black;
             font-family: Arial, Helvetica, sans-serif;
         }
-        &__big{
+        &__big {
             font-size: 220%;
         }
     }
-    &__delice-des-papilles{
+    &__delice-des-papilles {
         font-family: "Dancing Script", serif;
         @include multiColor(#0227dc, #0f81f8);
-        &__title{
+        &__title {
             font-family: Arial;
             font-weight: bold;
             margin-top: 5%;
             color: black;
             font-family: Arial, Helvetica, sans-serif;
         }
-        &__big{
+        &__big {
             font-size: 220%;
         }
     }
-    &__palette-du-gout{
-        font-family: "Kaushan Script",serif;
+    &__palette-du-gout {
+        font-family: "Kaushan Script", serif;
         @include multiColor(#3e923a, #beff7f);
-        &__title{
+        &__title {
             font-family: Arial;
             font-weight: bold;
             margin-top: 5%;
             color: black;
             font-family: Arial, Helvetica, sans-serif;
         }
-        &__big{
+        &__big {
             font-size: 220%;
         }
     }

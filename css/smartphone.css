@@ -1,41 +1,51 @@
-header{
+header {
     font-size: 65%;
 }
-footer{
+
+footer {
     font-size: 75%;
 }
-ul{
+
+ul {
     padding: 0%;
     margin: 0%;
     text-align: left;
 }
-li{
+
+li {
     font-size: 55%;
 }
-.en-tete img{
+
+.en-tete img {
     height: 4px;
     overflow: hidden;
 }
 
-.en-tete{
+.en-tete {
     font-size: 65%;
 }
-.menu{
+
+.menu__community {
     width: 75%;
-}
-.menu__community{
     margin-left: 12%;
+    height: 100%;
 }
-.container-accueil{
+
+.container-accueil {
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.row{
+
+.row {
     flex-direction: column;
 }
-.btn{
+
+.btn {
     margin-bottom: 20%;
 }
 
-
+.menu__community:hover {
+    opacity: inherit;
+    font-size: inherit;
+}

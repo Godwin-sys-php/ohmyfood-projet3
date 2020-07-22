@@ -1,10 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 7 version
-*/
-
 body {
   margin-left: 0px;
   margin-right: 0px;
@@ -49,12 +42,9 @@ footer {
   font-family: "Archivo Black", sans-serif;
   font-size: 125%;
   padding: 1.5%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   position: fixed;
   bottom: 0;
 }
@@ -65,49 +55,21 @@ footer div:hover {
   display: block;
 }
 
-@-webkit-keyframes wiggle {
-  0% {
-    -webkit-transform: rotate(10deg);
-            transform: rotate(10deg);
-  }
-  25% {
-    -webkit-transform: rotate(-10deg);
-            transform: rotate(-10deg);
-  }
-  50% {
-    -webkit-transform: rotate(15deg);
-            transform: rotate(15deg);
-  }
-  75% {
-    -webkit-transform: rotate(-5deg);
-            transform: rotate(-5deg);
-  }
-  100% {
-    -webkit-transform: rotate(10deg);
-            transform: rotate(10deg);
-  }
-}
-
 @keyframes wiggle {
   0% {
-    -webkit-transform: rotate(10deg);
-            transform: rotate(10deg);
+    transform: rotate(10deg);
   }
   25% {
-    -webkit-transform: rotate(-10deg);
-            transform: rotate(-10deg);
+    transform: rotate(-10deg);
   }
   50% {
-    -webkit-transform: rotate(15deg);
-            transform: rotate(15deg);
+    transform: rotate(15deg);
   }
   75% {
-    -webkit-transform: rotate(-5deg);
-            transform: rotate(-5deg);
+    transform: rotate(-5deg);
   }
   100% {
-    -webkit-transform: rotate(10deg);
-            transform: rotate(10deg);
+    transform: rotate(10deg);
   }
 }
 ul {
@@ -115,111 +77,101 @@ ul {
 }
 
 li {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   font-size: 125%;
 }
 
-.h2 {
+.titre {
   font-weight: lighter;
   font-size: 175%;
 }
-.h2__note-enchantee {
+.titre__note-enchantee {
   font-family: "Devonshire", serif;
   color: #5f2e34;
 }
-.h2__note-enchantee__title {
+.titre__note-enchantee__title {
   font-family: Arial;
   font-weight: bold;
   margin-top: 5%;
   color: black;
 }
-.h2__note-enchantee__big {
+.titre__note-enchantee__big {
   font-size: 220%;
 }
-.h2__chic-a-la-francaise {
+.titre__chic-a-la-francaise {
   font-family: "Croissant One", serif;
-  background: -webkit-gradient(linear, left top, right top, from(#e38a12), to(#6e4ccc));
-  background: -o-linear-gradient(left, #e38a12 0%, #6e4ccc 100%);
   background: linear-gradient(to right, #e38a12 0%, #6e4ccc 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 150%;
 }
-.h2__chic-a-la-francaise__title {
+.titre__chic-a-la-francaise__title {
   font-family: Arial;
   font-weight: bold;
   margin-top: 5%;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
 }
-.h2__chic-a-la-francaise__big {
+.titre__chic-a-la-francaise__big {
   font-size: 220%;
 }
-.h2__delice-des-papilles {
+.titre__delice-des-papilles {
   font-family: "Dancing Script", serif;
-  background: -webkit-gradient(linear, left top, right top, from(#0227dc), to(#0f81f8));
-  background: -o-linear-gradient(left, #0227dc 0%, #0f81f8 100%);
   background: linear-gradient(to right, #0227dc 0%, #0f81f8 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.h2__delice-des-papilles__title {
+.titre__delice-des-papilles__title {
   font-family: Arial;
   font-weight: bold;
   margin-top: 5%;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
 }
-.h2__delice-des-papilles__big {
+.titre__delice-des-papilles__big {
   font-size: 220%;
 }
-.h2__palette-du-gout {
+.titre__palette-du-gout {
   font-family: "Kaushan Script", serif;
-  background: -webkit-gradient(linear, left top, right top, from(#3e923a), to(#beff7f));
-  background: -o-linear-gradient(left, #3e923a 0%, #beff7f 100%);
   background: linear-gradient(to right, #3e923a 0%, #beff7f 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.h2__palette-du-gout__title {
+.titre__palette-du-gout__title {
   font-family: Arial;
   font-weight: bold;
   margin-top: 5%;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
 }
-.h2__palette-du-gout__big {
+.titre__palette-du-gout__big {
   font-size: 220%;
 }
 
-.h3 {
+.sous-titre {
   font-weight: lighter;
   font-size: 175%;
 }
-.h3__note-enchantee {
+.sous-titre__note-enchantee {
   font-family: "Comic Sans MS", serif;
   color: #5f2e34;
 }
-.h3__note-enchantee__inline-block {
+.sous-titre__note-enchantee__inline-block {
   display: inline-block;
   font-family: "Devonshire", serif;
   font-size: 220%;
   color: #5f2e34;
 }
-.h3__chic-a-la-francaise {
+.sous-titre__chic-a-la-francaise {
   font-family: "Abril Fatface", serif;
   color: #e38a12;
 }
-.h3__delice-des-papilles {
+.sous-titre__delice-des-papilles {
   font-family: "Comic Sans MS", serif;
   color: #0227dc;
 }
-.h3__palette-du-gout {
+.sous-titre__palette-du-gout {
   font-family: "Comic Sans MS", serif;
   color: #3e923a;
 }
@@ -229,10 +181,8 @@ li {
   width: 25%;
   text-align: center;
   overflow: hidden;
-  -webkit-box-shadow: 5px 5px 5px 5px #E0E0E0;
-          box-shadow: 5px 5px 5px 5px #E0E0E0;
-  -webkit-transition: opacity, font-size 400ms;
-  -o-transition: opacity, font-size 400ms;
+  box-shadow: 5px 5px 5px 5px #E0E0E0;
+  height: 32.5rem;
   transition: opacity, font-size 400ms;
 }
 .menu .content-accueil {
@@ -244,7 +194,6 @@ li {
   font-size: 120%;
 }
 .menu__note-enchantee {
-  height: 35rem;
   background-color: #fee0dc;
 }
 .menu__note-enchantee__solo {
@@ -258,7 +207,6 @@ li {
   height: 100%;
 }
 .menu__chic-a-la-francaise {
-  height: 35rem;
   background-color: #fff5fe;
 }
 .menu__chic-a-la-francaise__solo {
@@ -272,7 +220,6 @@ li {
   height: 100%;
 }
 .menu__delice-des-papilles {
-  height: 35rem;
   background-color: #FAFAFA;
 }
 .menu__delice-des-papilles__solo {
@@ -286,7 +233,6 @@ li {
   height: 100%;
 }
 .menu__palette-du-gout {
-  height: 35rem;
   background-color: #ffffff;
 }
 .menu__palette-du-gout__solo {
@@ -301,34 +247,20 @@ li {
 }
 
 .container-accueil {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .row {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .en-tete {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-around;
+  align-items: center;
 }
 .en-tete img {
   height: 12px;
@@ -337,8 +269,6 @@ li {
 .en-tete p {
   font-size: 150%;
   position: relative;
-  -webkit-transition: all 0.6s;
-  -o-transition: all 0.6s;
   transition: all 0.6s;
 }
 .en-tete p:before {
@@ -348,8 +278,6 @@ li {
   position: absolute;
   bottom: 0;
   background: black;
-  -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 .en-tete p:hover:before {
@@ -362,8 +290,6 @@ li {
 }
 .en-tete__chic-a-la-francaise__one > p {
   position: relative;
-  -webkit-transition: all 0.6s;
-  -o-transition: all 0.6s;
   transition: all 0.6s;
 }
 .en-tete__chic-a-la-francaise__one > p:before {
@@ -373,8 +299,6 @@ li {
   position: absolute;
   bottom: 0;
   background: #e38a12;
-  -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 .en-tete__chic-a-la-francaise__one > p:hover:before {
@@ -390,8 +314,6 @@ li {
 }
 .en-tete__chic-a-la-francaise__two > p {
   position: relative;
-  -webkit-transition: all 0.6s;
-  -o-transition: all 0.6s;
   transition: all 0.6s;
 }
 .en-tete__chic-a-la-francaise__two > p:before {
@@ -401,8 +323,6 @@ li {
   position: absolute;
   bottom: 0;
   background: #ab70a0;
-  -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 .en-tete__chic-a-la-francaise__two > p:hover:before {
@@ -418,8 +338,6 @@ li {
 }
 .en-tete__chic-a-la-francaise__three > p {
   position: relative;
-  -webkit-transition: all 0.6s;
-  -o-transition: all 0.6s;
   transition: all 0.6s;
 }
 .en-tete__chic-a-la-francaise__three > p:before {
@@ -429,8 +347,6 @@ li {
   position: absolute;
   bottom: 0;
   background: #6e4ccc;
-  -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 .en-tete__chic-a-la-francaise__three > p:hover:before {
@@ -454,28 +370,13 @@ li {
   padding: 1.5%;
 }
 .btn > span {
-  -webkit-animation: blink 1.4s infinite;
-          animation: blink 1.4s infinite;
+  animation: blink 1.4s infinite;
 }
 .btn > span:nth-child(2) {
-  -webkit-animation-delay: 0.2s;
-          animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 .btn > span:nth-child(3) {
-  -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s;
-}
-
-@-webkit-keyframes blink {
-  0% {
-    opacity: 0.2;
-  }
-  20% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0.2;
-  }
+  animation-delay: 0.4s;
 }
 
 @keyframes blink {
@@ -489,3 +390,5 @@ li {
     opacity: 0.2;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
