@@ -101,7 +101,7 @@ li {
 }
 .titre__chic-a-la-francaise {
   font-family: "Croissant One", serif;
-  background: linear-gradient(to right, #e38a12 0%, #6e4ccc 100%);
+  background: linear-gradient(to right, #dc8527 0%, #8f5afe 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 150%;
@@ -118,7 +118,7 @@ li {
 }
 .titre__delice-des-papilles {
   font-family: "Dancing Script", serif;
-  background: linear-gradient(to right, #0227dc 0%, #0f81f8 100%);
+  background: linear-gradient(to right, #0227dc 0%, #0fc2f8 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -185,7 +185,7 @@ li {
   height: 32.5rem;
 }
 .menu .content-accueil {
-  transition: all 400ms;
+  transition: transform 500ms, opacity 500ms;
   text-align: center;
   padding-top: 50%;
   padding-bottom: 50%;
@@ -264,7 +264,7 @@ li {
   align-items: center;
 }
 .en-tete img {
-  height: 12px;
+  height: 0.75em;
   width: 30%;
 }
 .en-tete p {

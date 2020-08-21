@@ -16,7 +16,7 @@
     }
     &__chic-a-la-francaise {
         font-family: "Croissant One", serif;
-        @include multiColor(#e38a12, #6e4ccc);
+        @include multiColor(#dc8527, #8f5afe);
         font-size: 150%;
         &__title {
             font-family: Arial;
@@ -31,7 +31,7 @@
     }
     &__delice-des-papilles {
         font-family: "Dancing Script", serif;
-        @include multiColor(#0227dc, #0f81f8);
+        @include multiColor(#0227dc, #0fc2f8);
         &__title {
             font-family: Arial;
             font-weight: bold;
