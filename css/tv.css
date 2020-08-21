@@ -11,16 +11,15 @@ ul{
 .en-tete{
     font-size: 65%;
 }
-.menu__community{
-    width: 75%;
-    margin-left: 12%;
-    height: 100%;
-}
 .btn{
-    margin-bottom: 20%;
+    margin-bottom: 8%;
 }
 
-.menu__community:hover{
-    opacity: inherit;
-    font-size: inherit;
+.menu {
+    height: 65vh;
+}
+
+body {
+    font-size: 175%;
+    background-color: blue;
 }

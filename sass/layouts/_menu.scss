@@ -5,19 +5,18 @@
     overflow: hidden;
     box-shadow: 5px 5px 5px 5px $box-shadow-color;
     height: 32.5rem;
-
-    transition: opacity, font-size 400ms;
         
     .content-accueil{
+        transition: all 400ms;
+        
+        text-align: center;
+
         padding-top: 50%;
         padding-bottom: 50%;
-    }
 
-    
-    &__community{
         &:hover{
             opacity: 0.5;
-            font-size: 120%;
+            transform: scale(1.2, 1.2);
         }
     }
 
